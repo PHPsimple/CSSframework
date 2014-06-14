@@ -1,0 +1,46 @@
+/* Status paragraphs style */
+.status-primary
+{
+	width: auto;
+	height: auto;
+	background-color: #2d89ef; /* primary */
+	padding: 10px;
+	color: white;
+	margin: 10px 0 10px 0;
+}
+.status-success
+{
+	width: auto;
+	height: auto;
+	background-color: #99b433; /* success */
+	padding: 10px;
+	color: white;
+	margin: 10px 0 10px 0;
+}
+.status-info
+{
+	width: auto;
+	height: auto;
+	background-color: #eff4ff; /* info */
+	padding: 10px;
+	color: black;
+	margin: 10px 0 10px 0;
+}
+.status-warning
+{
+	width: auto;
+	height: auto;
+	background-color: #ffc40d; /* warning */
+	padding: 10px;
+	color: black;
+	margin: 10px 0 10px 0;
+}
+.status-danger
+{
+	width: auto;
+	height: auto;
+	background-color: #ee1111; /* danger */
+	padding: 10px;
+	color: black;
+	margin: 10px 0 10px 0;
+}
