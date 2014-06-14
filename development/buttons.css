@@ -1,0 +1,50 @@
+/* Buttons style */
+.btn
+{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 1px;
+}
+.btn-default
+{
+    color: black;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+.btn-primary
+{
+    color: white;
+    border: 1px solid black;
+    background-color: #2d89ef;
+}
+.btn-success
+{
+    color: white;
+    border: 1px solid black;
+    background-color: #00a300;
+}
+.btn-info
+{
+    color: black;
+    border: 1px solid black;
+    background-color: #eff4ff;
+}
+.btn-warning
+{
+    color: white;
+    border: 1px solid black;
+    background-color: #ffc40d;
+}
+.btn-danger
+{
+    color: white;
+    border: 1px solid black;
+    background-color: #ee1111;
+}
+.btn-large{font-size: 19px;}
+.btn-small{font-size: 10px;}
+a.btn{text-decoration: none;}
