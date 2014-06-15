@@ -7,8 +7,9 @@
     <meta name="description" content="CSSframework : Simple CSS framework to help users style their page" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/cssframework.css">
 
-    <title>CSSframework</title>
+    <title>Docs - CSSframework</title>
   </head>
 
   <body>
@@ -31,23 +32,34 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="cssframework-project" class="anchor" href="#cssframework-project"><span class="octicon octicon-link"></span></a>CSSframework project</h3>
-
-<p>This CSS framework is a project that helps users to develop web applications. Please feel free to clone/fork our project. You can start by cloning this repository in your terminal:</p>
-
-<pre><code>$ cd git clone https://github.com/PHPsimple/CSSframework.git
-</code></pre>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>This project is maintained by <a href="https://github.com/PHPsimple" class="user-mention">@PHPsimple</a> and <a href="https://github.com/loopByte" class="user-mention">@loopByte</a> is the main contributor to this repository. If you have trouble with this project feel free to open issues on the repository issues.</p>
-
-<h3>
-<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h3>
-
-<p>You can read our documentation <a href="documentation.html">here</a> but be careful! This documentations are not finished. you can experience problemes reading them. Please contact us if you need help.</p>
+      
+    	<h1>First step</h1>
+    	<p>You need to link your page to cssframework.css by inserting this line to your code: <code>&lt;link rel="stylesheet" type="text/css" media="screen" href="stylesheets/cssframework.css"&gt;</code></p>
+    	<p>After you link your page to cssframework.css you need to insert in <code>&lt;body&gt;</code> tag a <code>&lt;div&gt;</code> container with
+    		<code>.container</code> class like this:
+    	</p>
+		<code>
+			&lt;body&gt;
+				&lt;div class="container"&gt;
+					.......
+				&lt;/div&gt;
+			&lt;/body&gt;
+		</code>
+		<p>After you finish this step you can start design your pages. Good luck!</p>
+		
+		<h1>Page header</h1>
+		<p>
+			Use <code>.header</code> on a <code>&lt;header&gt;</code> container and then inside this container write <code>&lt;h1&gt;</code> and <code>&lt;h3&gt;</code> tags for header and subheader
+		</p>
+		<header class="header">
+			<h1>This is a page header</h1>
+			<h3>This is a subheader</h3>
+		</header>
+		
+		<h1>Blockquote</h1>
+		<p>
+			You can use blockquotes by
+		</p>
       </section>
     </div>
 
