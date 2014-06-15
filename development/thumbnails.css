@@ -1,0 +1,38 @@
+.thumbnail-small
+{
+    width: 68px;
+    height: 68px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+.thumbnail-small img
+{
+    width: 64px;
+    height: 64px;
+}
+
+.thumbnail-medium
+{
+    width: 172px;
+    height: 182px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+.thumbnail-medium img
+{
+    width: 170px;
+    height: 180px;
+}
+
+.thumbnail-larger
+{
+    width: 302px;
+    height: 202px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+.thumbnail-larger img
+{
+    width: 300px;
+    height: 200px;
+}
