@@ -8,41 +8,42 @@
     color: #ffffff;
     border-radius: 3px;
     border: 1px;
+    margin: 3px;
 }
 .btn-default
 {
     color: black;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     background-color: #ffffff;
 }
 .btn-primary
 {
     color: white;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     background-color: #2d89ef;
 }
 .btn-success
 {
     color: white;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     background-color: #00a300;
 }
 .btn-info
 {
     color: black;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     background-color: #eff4ff;
 }
 .btn-warning
 {
     color: white;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     background-color: #ffc40d;
 }
 .btn-danger
 {
     color: white;
-    border: 1px solid black;
+    border: 1px solid #ddd;
     background-color: #ee1111;
 }
 .btn-large{font-size: 19px;}
