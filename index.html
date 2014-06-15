@@ -3,10 +3,29 @@
 	<head>
 		<title>CSS Framework</title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="development/blockquote.css" />
+		<link rel="stylesheet" type="text/css" href="development/buttons.css" />
+		<link rel="stylesheet" type="text/css" href="development/code.css" />
+		<link rel="stylesheet" type="text/css" href="development/colors.css" />
+		<link rel="stylesheet" type="text/css" href="development/input.css" />
+		<link rel="stylesheet" type="text/css" href="development/page.css" />
+		<link rel="stylesheet" type="text/css" href="development/status.css" />
+		<link rel="stylesheet" type="text/css" href="development/table.css" />
+		<link rel="stylesheet" type="text/css" href="development/panel.css" />
+		<link rel="stylesheet" type="text/css" href="development/badges.css" />
+		<link rel="stylesheet" type="text/css" href="development/labels.css" />
+		<link rel="stylesheet" type="text/css" href="development/lists.css" />
+		<link rel="stylesheet" type="text/css" href="development/breadcrumb.css" />
+		<link rel="stylesheet" type="text/css" href="development/header.css" />
 	</head>
 <body>
 	<div class="container">
+		<h1>Header</h1>
+		<header class="header">
+			<h1>This is header title</h1>
+			<h3>This is the subheader page</h3>
+		</header>
+		
 		<h1>Status paragraphs</h1>
 		<p class="status-primary">This is a status-primary paragraph</p>
 		<p class="status-success">This is a status-success paragraph</p>
@@ -52,13 +71,62 @@
 		</table>
 		
 		<h1>Input</h1>
-		<input type="text" class="input-box" />
+		<input type="text" name="box" class="input-box" placeholder="Simple text input"/>
+		<div class="search-box">
+			<form>
+				<input type="text" name="search" class="input-box" placeholder="Simple search box without button" />
+				<input type="submit" />
+			</form>
+		</div>
 		
 		<h1>Buttons</h1>
-		<button class="btn btn-large">Large button</button>
-		<button class="btn">Default button</button>
-		<button class="btn btn-small">Small button</button>
-		<a href="#" class="btn btn-small">Anchor</a>
+		<button class="btn btn-default btn-large">Large button</button>
+		<button class="btn btn-default">Default button</button>
+		<button class="btn btn-default btn-small">Small button</button>
+		<a href="#" class="btn btn-default btn-small">Anchor</a>
+		<br />
+		<button class="btn btn-primary">Primary button</button>
+		<button class="btn btn-success">Success button</button>
+		<button class="btn btn-info">Info button</button>
+		<button class="btn btn-warning">Warning button</button>
+		<button class="btn btn-danger">Danger button</button>
+		
+		<h1>Panel</h1>
+		<div class="panel">
+			<header class="title">This is panel title</header>
+			<div class="body">
+				<p>This is panel body</p>
+			</div>
+			<footer class="footer">
+				This is a panel footer
+			</footer>
+		</div>
+		
+		<h1>Badges</h1>
+		Inbox <span class="badge">5</span>
+		
+		<h1>Labels</h1>
+		<span class="label label-default">Default</span>
+		<span class="label label-primary">Primary</span>
+		<span class="label label-success">Success</span>
+		<span class="label label-info">Info</span>
+		<span class="label label-warning">Warning</span>
+		<span class="label label-danger">Danger</span>
+		
+		<h1>Lists</h1>
+		<ul class="list-group">
+			<li>This is the first item</li>
+			<li>This is the second item</li>
+			<li>This is the third item</li>
+			<li>This is the fourth item</li>
+		</ul>
+		
+		<h1>Breadcrumbs</h1>
+		<ol class="breadcrumb">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Archive</a></li>
+			<li><a href="#" class="active">Data</a></li>
+		</ol>
 	</div>
 </body>
 </html>
