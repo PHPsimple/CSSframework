@@ -1,0 +1,17 @@
+/* Page header style */
+.header
+{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+.header h1
+{
+    font-size: 40px;
+}
+.header h3
+{
+    margin: 0 0 0 30px;
+    color: silver;
+}
