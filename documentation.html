@@ -33,7 +33,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
       
-    	<h1>First step</h1>
+    	<h3>First step</h3>
     	<p>You need to link your page to cssframework.css by inserting this line to your code: <code>&lt;link rel="stylesheet" type="text/css" media="screen" href="stylesheets/cssframework.css"&gt;</code></p>
     	<p>After you link your page to cssframework.css you need to insert in <code>&lt;body&gt;</code> tag a <code>&lt;div&gt;</code> container with
     		<code>.container</code> class like this:
@@ -47,19 +47,122 @@
 		</code>
 		<p>After you finish this step you can start design your pages. Good luck!</p>
 		
-		<h1>Page header</h1>
-		<p>
-			Use <code>.header</code> on a <code>&lt;header&gt;</code> container and then inside this container write <code>&lt;h1&gt;</code> and <code>&lt;h3&gt;</code> tags for header and subheader
-		</p>
-		<header class="header">
-			<h1>This is a page header</h1>
-			<h3>This is a subheader</h3>
-		</header>
-		
-		<h1>Blockquote</h1>
-		<p>
-			You can use blockquotes by
-		</p>
+    <h3>Page header</h3>
+    <header class="header">
+        <h1>This is header title</h1>
+        <h3>This is the subheader page</h3>
+    </header>
+
+    <h3>Status paragraphs</h3>
+    <p class="status-primary">This is a status-primary paragraph</p>
+    <p class="status-success">This is a status-success paragraph</p>
+    <p class="status-info">This is a status-info paragraph</p>
+    <p class="status-warning">This is a status-warning paragraph</p>
+    <p class="status-danger">This is a status-danger paragraph</p>
+
+    <h3>Blockquote</h3>
+    <blockquote>
+        <p>This is a quote</p>
+        <footer>Cite from blockquote</footer>
+    </blockquote>
+
+    <h3>Code block</h3>
+    <kbd>
+        cd Documents
+    </kbd>
+
+    <h3>Inline code</h3>
+    <code>&lt;section&gt;</code>
+
+    <h3>Table</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Vasile</td>
+                <td>Milea</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vali</td>
+                <td>Milea</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Input</h3>
+    <input type="text" name="box" class="input-box" placeholder="Simple text input"/>
+    <textarea class="input-content" placeholder="This is a textarea"></textarea>
+
+    <h3>Buttons</h3>
+    <button class="btn btn-default btn-large">Large button</button>
+    <button class="btn btn-default">Default button</button>
+    <button class="btn btn-default btn-small">Small button</button>
+    <a href="#" class="btn btn-default btn-small">Anchor</a>
+    <br />
+    <button class="btn btn-primary">Primary button</button>
+    <button class="btn btn-success">Success button</button>
+    <button class="btn btn-info">Info button</button>
+    <button class="btn btn-warning">Warning button</button>
+    <button class="btn btn-danger">Danger button</button>
+
+    <h3>Panel</h3>
+    <div class="panel">
+        <header class="title">This is panel title</header>
+        <div class="body">
+            <p>This is panel body</p>
+        </div>
+        <footer class="footer">
+            This is a panel footer
+        </footer>
+    </div>
+
+    <h3>Badges</h3>
+    Inbox <span class="badge">5</span>
+
+    <h3>Labels</h3>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+
+    <h1>Lists</h1>
+    <ul class="list-group">
+        <li>This is the first item</li>
+        <li>This is the second item</li>
+        <li>This is the third item</li>
+        <li>This is the fourth item</li>
+    </ul>
+
+    <h1>Breadcrumbs</h1>
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Archive</a></li>
+        <li><a href="#" class="active">Data</a></li>
+    </ol>
+
+    <h1>Thumbnails</h1>
+    <div class="thumbnail-medium">
+        <img src="http://www.mitfsolutions.com/img/clients/EEDM%20-%20Html%20Website.png">
+    </div>
+    <div class="thumbnail-larger">
+        <img src="http://arrayvelocity.com/wp-content/uploads/2014/02/html5-css3-technology-300x200.png">
+    </div>
+    <div class="thumbnail-small">
+        <img src="http://taratechnology.ro/wp-content/uploads/2012/03/htmlcss.png">
+    </div>
+
+
+    <!-- Content goes until here -->
       </section>
     </div>
 
