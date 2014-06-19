@@ -13,11 +13,6 @@
     box-shadow: 0 0 0 2px #2d89ef;
 }
 
-.search-box input[type=submit]
-{
-	display: none;
-}
-
 .input-content
 {
     width: 100%;
