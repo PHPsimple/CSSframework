@@ -1,9 +1,11 @@
+/* Thumbnail style */
 .thumbnail-small
 {
     width: 68px;
     height: 68px;
     border: 1px solid gray;
     padding: 4px;
+    margin: 5px;
 }
 .thumbnail-small img
 {
@@ -17,6 +19,7 @@
     height: 182px;
     border: 1px solid gray;
     padding: 4px;
+    margin: 5px;
 }
 .thumbnail-medium img
 {
@@ -30,6 +33,7 @@
     height: 202px;
     border: 1px solid gray;
     padding: 4px;
+    margin: 5px;
 }
 .thumbnail-larger img
 {
