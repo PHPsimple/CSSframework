@@ -1,0 +1,7 @@
+/* Globals */
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.hide { display: none; }
+.italic { font-style: italic; }
+.strong { font-style: bold; }
