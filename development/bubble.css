@@ -1,0 +1,29 @@
+/* Bubble style */
+.comment
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.comments .comment p { margin: 0 0 10px 0; }
+.bubble
+{
+    position: relative;
+    background-color: #ddd;
+    padding: 20px;
+    color: #222;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.bubble:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 15px solid #ddd;
+}
