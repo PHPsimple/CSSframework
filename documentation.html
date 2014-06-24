@@ -1,190 +1,258 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="CSSframework : Simple CSS framework to help users style their page" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/cssframework.css">
-
-    <title>Docs - CSSframework</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/PHPsimple/CSSframework">View on GitHub</a>
-
-          <h1 id="project_title">CSSframework</h1>
-          <h2 id="project_tagline">Simple CSS framework to help users style their page</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/PHPsimple/CSSframework/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/PHPsimple/CSSframework/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+<!DDOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSSframework Documentation</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/cssframework.css" />
+    </head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>CSSframework Documentation</h1>
+            <h3>Here you can find documentation for this framework</h3>
         </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-      
-    	<h3>First step</h3>
-    	<p>You need to link your page to cssframework.css by inserting this line to your code: <code>&lt;link rel="stylesheet" type="text/css" media="screen" href="stylesheets/cssframework.css"&gt;</code></p>
-    	<p>After you link your page to cssframework.css you need to insert in <code>&lt;body&gt;</code> tag a <code>&lt;div&gt;</code> container with
-    		<code>.container</code> class like this:
-    	</p>
-		<code>
-			&lt;body&gt;
-				&lt;div class="container"&gt;
-					.......
-				&lt;/div&gt;
-			&lt;/body&gt;
-		</code>
-		<p>After you finish this step you can start design your pages. Good luck!</p>
-		
-    <h3>Page header</h3>
-    <header class="header">
-        <h1>This is header title</h1>
-        <h3>This is the subheader page</h3>
-    </header>
-
-    <h3>Status paragraphs</h3>
-    <p class="status-primary">This is a status-primary paragraph</p>
-    <p class="status-success">This is a status-success paragraph</p>
-    <p class="status-info">This is a status-info paragraph</p>
-    <p class="status-warning">This is a status-warning paragraph</p>
-    <p class="status-danger">This is a status-danger paragraph</p>
-
-    <h3>Blockquote</h3>
-    <blockquote>
-        <p>This is a quote</p>
-        <footer>Cite from blockquote</footer>
-    </blockquote>
-
-    <h3>Code block</h3>
-    <kbd>
-        cd Documents
-    </kbd>
-
-    <h3>Inline code</h3>
-    <code>&lt;section&gt;</code>
-
-    <h3>Table</h3>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Vasile</td>
-                <td>Milea</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Vali</td>
-                <td>Milea</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>Input</h3>
-    <input type="text" name="box" class="input-box" placeholder="Simple text input"/>
-    <textarea class="input-content" placeholder="This is a textarea"></textarea>
-
-    <h3>Buttons</h3>
-    <button class="btn btn-default btn-large">Large button</button>
-    <button class="btn btn-default">Default button</button>
-    <button class="btn btn-default btn-small">Small button</button>
-    <a href="#" class="btn btn-default btn-small">Anchor</a>
-    <br />
-    <button class="btn btn-primary">Primary button</button>
-    <button class="btn btn-success">Success button</button>
-    <button class="btn btn-info">Info button</button>
-    <button class="btn btn-warning">Warning button</button>
-    <button class="btn btn-danger">Danger button</button>
-
-    <h3>Panel</h3>
-    <div class="panel">
-        <header class="title">This is panel title</header>
-        <div class="body">
-            <p>This is panel body</p>
+        <!-- First step -->
+        <div class="article-header">
+            <h2>First step</h2>
         </div>
-        <footer class="footer">
-            This is a panel footer
-        </footer>
+        <p>Before you start do design your application, you need to do this in order to use our framework:</p>
+        <code>
+            &lt;link rel="stylesheet" type="text/css" href="cssframework.css" /&gt;
+        </code>
+        <p>After you link to <code>cssframework.css</code> file you need to define a <code>.container</code>
+            class to a <code>&lt;div&gt;</code> element. After you do this, you can style your page. Good luck!
+        </p>
+
+        <!-- Headers -->
+        <div class="article-header">
+            <h2>Headers</h2>
+        </div>
+        <p>
+            With our framework you can define page headers with ease like this:
+        </p>
+        <header class="header">
+            <h1>This is a page header<h1>
+            <h3>This is a subheader</h3>
+        </header>
+        <p>
+            To a <code>&lt;header&gt;</code> element you need to set <code>.header</code> class.
+            After that, in the brackets of <code>&lt;header&gt;</code> element you need to put
+            a <code>&lt;h1&gt;</code> and a <code>&lt;h3&gt;</code>(optional) heading.
+        </p>
+        <p>
+            Also with our framework you can define article headers like this:
+        </p>
+        <div class="article-header">
+            <h2>This is an article header</h2>
+        </div>
+        <p>
+            You can define this type of header by giving the <code>.article-header</code> class to a
+            <code>&lt;div&gt;</code> element. Inside this element you need to write the <code>&lt;h2&gt;</code>
+            heading element.
+        </p>
+
+        <!-- Status paragraphs -->
+        <div class="article-header">
+            <h2>Status paragraphs</h2>
+        </div>
+        <p>
+            This framework allow you to create paragraphs that show the status of an action you do.
+        </p>
+        <p class="status-primary">This is a status-primary paragraph</p>
+        <p class="status-success">This is a status-success paragraph</p>
+        <p class="status-info">This is a status-info paragraph</p>
+        <p class="status-warning">This is a status-warning paragraph</p>
+        <p class="status-danger">This is a status-danger paragraph</p>
+        <p>
+            In order to use these status paragraphs you need to create a <code>&lt;p&gt;</code> element
+            and give it a class that contain the status you want to show.
+        </p>
+        <p>
+            Primary: <code>.status-primary</code><br />
+            Success: <code>.status-success</code><br />
+            Info: <code>.status-info</code><br />
+            Warning: <code>.status-warning</code><br />
+            Danger: <code>.status-danger</code><br />
+        </p>
+
+        <div class="article-header">
+            <h2>Blockquote</h2>
+        </div>
+        <blockquote>
+            <p>This is a quote</p>
+            <footer>Cite from blockquote</footer>
+        </blockquote>
+        <p>
+            You can quote by using the <code>&lt;blockquote&gt;</code> element. Inside it write the quote
+            inside a <code>&lt;p&gt;</code> element. Optioonally you can use a <code>&lt;footer&gt;</code>
+            element to say who do you cite.
+        </p>
+
+        <div class="article-header">
+            <h2>Code block</h2>
+        </div>
+        <kbd>
+            cd Documents
+        </kbd>
+        <p>
+            Code block can be used by writing you code inside the <code>&lt;kbd&gt;</code> element.
+        </p>
+
+        <div class="article-header">
+            <h2>Inline code</h2>
+        </div>
+        <code>&lt;section&gt;</code>
+        <p>
+            Inline codes can be written by using the <code>&lt;code&gt;</code> element.
+        </p>
+
+        <div class="article-header">
+            <h2>Table</h2>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Vasile</td>
+                    <td>Milea</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Vali</td>
+                    <td>Milea</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            You can simply custom your table by adding <code>.table</code> class to your table
+        </p>
+
+        <div class="article-header">
+            <h2>Input</h2>
+        </div>
+        <input type="text" name="box" class="input-box" placeholder="Simple text input"/>
+        <p>
+            To style input box you can use <code>.input-box</code> class on an input box.
+        </p>
+        <textarea class="input-content" placeholder="This is a textarea"></textarea>
+        <p>
+            To style textareas simply use <code>.input-content</code> class.
+        </p>
+
+        <Div class="article-header">
+            <h2>Buttons</h2>
+        </div>
+        <button class="btn btn-default btn-large">Large button</button>
+        <button class="btn btn-default">Default button</button>
+        <button class="btn btn-default btn-small">Small button</button>
+        <a href="#" class="btn btn-default btn-small">Anchor</a>
+        <p>
+            For buttons you can use <code>.btn .btn-default</code> classes. To change the size of a button
+            you can use <code>.btn-large</code> and <code>.btn-small</code>, For a medium size you use
+            <code>.btn-default</code>.
+        </p>
+        <br />
+        <button class="btn btn-primary">Primary button</button>
+        <button class="btn btn-success">Success button</button>
+        <button class="btn btn-info">Info button</button>
+        <button class="btn btn-warning">Warning button</button>
+        <button class="btn btn-danger">Danger button</button>
+        <p>
+            To syle on different colors you need to use class <code>.btn-primary</code>, <code>.btn-success</code>,
+            <code>.btn-info</code>, <code>.btn-warning</code>, <code>.btn-danger</code>.
+        <p/>
+
+        <div class="article-header">
+            <h2>Panel</h2>
+        </div>
+        <div class="panel">
+            <header class="title">This is panel title</header>
+            <div class="body">
+                <p>This is panel body</p>
+            </div>
+            <footer class="footer">
+                This is a panel footer
+            </footer>
+        </div>
+        <p>
+            To use panels you have to define a <code>&lt;div&gt;</code> element with <code>.panel</code> class.
+            Inside this element insert a <code>&lt;header&gt;</code> element with a <code>.title</code> class.
+            After that insert a <code>&lt;div&gt;</code> element with a <code>.body</code> class and inside this
+            body you can use a <code>&lt;p&gt;</code> element for content. Optionally, you can use a
+            <code>&lt;footer&gt;</code> element with a <code>.footer</code> class.
+        </p>
+
+        <div class="article-header">
+            <h2>Badge</h2>
+        </div>
+        Inbox <span class="badge">5</span>
+        <p>
+            You can simply use a badge by giving the <code>.badge</code> class to a <code>&lt;span&gt;</code> element.
+        </p>
+
+        <div class="article-header">
+            <h2>Labels</h2>
+        </div>
+        <span class="label label-default">Default</span>
+        <span class="label label-primary">Primary</span>
+        <span class="label label-success">Success</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warning</span>
+        <span class="label label-danger">Danger</span>
+        <p>
+            To create a label simply give the <code>.label .label-default</code> class to a <code>&lt;span&gt;</code>
+            element for a default style. Also you can use <code>.label .label-primary</code>, <code>.label .label-success</code>,
+            <code>.label .label-info</code>, <code>.label .label-warning</code>, <code>.label .label-danger</code> to show status of your actions.
+        </p>
+
+        <div class="article-header">
+            <h2>Lists</h2>
+        </div>
+        <ul class="list-group">
+            <li>This is the first item</li>
+            <li>This is the second item</li>
+            <li>This is the third item</li>
+            <li>This is the fourth item</li>
+        </ul>
+        <p>
+            To a <code>&lt;ul&gt;</code> element use <code>.list-group</code> class.
+        </p>
+
+        <div class="article-header">
+            <h2>Breadcrumbs</h2>
+        </div>
+        <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#" class="active">Data</a></li>
+        </ol>
+        <p>
+            To use breadcrumbs, simply use <code>.breadcrumb</code> class on an <code>&lt;ol&gt;</code> element.
+            For active element, on <code>&lt;a&gt;</code> element use <code>.active</code> class.
+        </p>
+
+        <h1>Thumbnails</h1>
+        <div class="thumbnail-medium">
+            <img src="http://www.mitfsolutions.com/img/clients/EEDM%20-%20Html%20Website.png">
+        </div>
+        <div class="thumbnail-larger">
+            <img src="http://arrayvelocity.com/wp-content/uploads/2014/02/html5-css3-technology-300x200.png">
+        </div>
+        <div class="thumbnail-small">
+            <img src="http://taratechnology.ro/wp-content/uploads/2012/03/htmlcss.png">
+        </div>
+        <p>
+            To use thumbnails you can simply add <code>.thumbnail-medium</code>, <code>.thumbnail-larger</code> or
+            <code>.thumbnail-small</code> to a <code>&lt;div&gt;</code> element. Inside it, just simply use a
+            <code>&lt;img&gt;</code> element.
+        </p>
     </div>
-
-    <h3>Badges</h3>
-    Inbox <span class="badge">5</span>
-
-    <h3>Labels</h3>
-    <span class="label label-default">Default</span>
-    <span class="label label-primary">Primary</span>
-    <span class="label label-success">Success</span>
-    <span class="label label-info">Info</span>
-    <span class="label label-warning">Warning</span>
-    <span class="label label-danger">Danger</span>
-
-    <h1>Lists</h1>
-    <ul class="list-group">
-        <li>This is the first item</li>
-        <li>This is the second item</li>
-        <li>This is the third item</li>
-        <li>This is the fourth item</li>
-    </ul>
-
-    <h1>Breadcrumbs</h1>
-    <ol class="breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Archive</a></li>
-        <li><a href="#" class="active">Data</a></li>
-    </ol>
-
-    <h1>Thumbnails</h1>
-    <div class="thumbnail-medium">
-        <img src="http://www.mitfsolutions.com/img/clients/EEDM%20-%20Html%20Website.png">
-    </div>
-    <div class="thumbnail-larger">
-        <img src="http://arrayvelocity.com/wp-content/uploads/2014/02/html5-css3-technology-300x200.png">
-    </div>
-    <div class="thumbnail-small">
-        <img src="http://taratechnology.ro/wp-content/uploads/2012/03/htmlcss.png">
-    </div>
-
-
-    <!-- Content goes until here -->
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">CSSframework maintained by <a href="https://github.com/PHPsimple">PHPsimple</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-40837600-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
-  </body>
+</body>
 </html>
